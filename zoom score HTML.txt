@@ -1,0 +1,68 @@
+/zoomscore
+    |-- index.html
+    |-- styles.css
+    |-- script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoomScore - Live Sports Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ZoomScore</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#football">Football</a></li>
+                <li><a href="#basketball">Basketball</a></li>
+                <li><a href="#tennis">Tennis</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to ZoomScore</h2>
+            <p>Your ultimate destination for live sports scores and updates.</p>
+        </section>
+
+        <section id="football">
+            <h2>Football Live Scores</h2>
+            <div id="football-scores"></div>
+        </section>
+
+        <section id="basketball">
+            <h2>Basketball Live Scores</h2>
+            <div id="basketball-scores"></div>
+        </section>
+
+        <section id="tennis">
+            <h2>Tennis Live Scores</h2>
+            <div id="tennis-scores"></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ZoomScore. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
